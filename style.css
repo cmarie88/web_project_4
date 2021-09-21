@@ -1,21 +1,23 @@
-/* Remove this at end - link in index.css*/
+/* Remove this at end - link in index.css
 @font-face {
   src: url(./Inter-Regular.woff);
-  font-family: "Inter";
+  font-family: "Inter-Regular";
   font-weight: 400;
 }
 
 @font-face {
   src: url(./Inter-Medium.woff);
-  font-family: "Inter";
+  font-family: "Inter-Medium";
   font-weight: 500;
 }
 
 @font-face {
   src: url(./Inter-Black.woff);
-  font-family: "Inter";
+  font-family: "Inter-Black";
   font-weight: 900;
-}
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&display=swap');
 
 .page-container {
   background-color: #000;
@@ -43,6 +45,36 @@
 
 .profile {
   padding: 40px 0 0;
+  font-weight: 500;
+}
+
+.profile_avatar {
+  border-radius: 50%;
+}
+
+.profile_name {
+  font-size: 42px;
+  line-height: 1.14;
+}
+
+.profile_description {
+  font-size: 18px;
+  line-height: 1.83;
+}
+
+.profile_edit-image {
+  border: 1px solid #FFFFFF;
+  padding: 6px 6px;
+}
+
+.profile_add-link {
+
+}
+
+.profile_add-image {
+  border: 2px solid #FFFFFF;
+  padding: 14px 64px;
+
 }
 
 mobile profile name::after/* Group 1 */
