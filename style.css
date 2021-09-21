@@ -46,6 +46,7 @@
 .profile {
   padding: 40px 0 0;
   font-weight: 500;
+  display: flex;
 }
 
 .profile_avatar {
