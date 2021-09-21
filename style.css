@@ -1,0 +1,102 @@
+/* Remove this at end - link in index.css*/
+@font-face {
+  src: url(./Inter-Regular.woff);
+  font-family: "Inter";
+  font-weight: 400;
+}
+
+@font-face {
+  src: url(./Inter-Medium.woff);
+  font-family: "Inter";
+  font-weight: 500;
+}
+@font-face {
+  src: url(./Inter-Black.woff);
+  font-family: "Inter";
+  font-weight: 900;
+}
+
+
+
+/* Header
+
+opacity: 0.7;
+border: 1px solid #545454;
+
+
+Profile name
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 42px;
+line-height: 1.14;
+
+color: #FFFFFF;
+?
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height
+
+color: #FFFFFF;*/
+
+/* Card Title
+font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+/Profile description
+/* Explorer
+
+position: absolute;
+width: 415px;
+height: 22px;
+left: 350px;
+top: 236px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height
+
+color: #FFFFFF;*/
+
+
+/*Form
+ "Edit profile"
+
+position: absolute;
+width: 330px;
+height: 23px;
+left: 461px;
+top: 229px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;*/
+
+/* FORM Field 1
+opacity: 0.2;
+border: 1px solid #000000;
+Jacques Cousteau
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #000000;*/
+
+
+
