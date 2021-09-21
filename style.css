@@ -77,12 +77,14 @@
 
 .profile_description {
   font-size: 18px;
+  font-weight: 400;
   line-height: 1.83;
   margin: 0;
+  padding: 16px 0 0 0;
 }
 
 .profile_add-link {
-  padding: 0 0 0 165px;
+  padding: 0 0 0 145px;
 
 }
 
