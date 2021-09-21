@@ -48,6 +48,8 @@
   font-weight: 500;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  max-width: 880px;
 }
 
 .profile_avatar {
@@ -84,7 +86,7 @@
 }
 
 .profile_add-link {
-  padding: 0 0 0 145px;
+  padding: 0 0 0 144px;
 
 }
 
