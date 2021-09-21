@@ -47,20 +47,27 @@
   padding: 40px 0 0;
   font-weight: 500;
   display: flex;
+  align-items: center;
 }
 
 .profile_avatar {
   border-radius: 50%;
 }
 
+.profile_edit-box {
+  padding: 0 0 0 30px;
+
+}
+
 .profile_name {
   font-size: 42px;
   line-height: 1.14;
+  margin: 0;
 }
 
-.profile_description {
-  font-size: 18px;
-  line-height: 1.83;
+.profile_edit-link {
+  padding: 0 0 0 18px;
+
 }
 
 .profile_edit-image {
@@ -68,7 +75,14 @@
   padding: 6px 6px;
 }
 
+.profile_description {
+  font-size: 18px;
+  line-height: 1.83;
+  margin: 0;
+}
+
 .profile_add-link {
+  padding: 0 0 0 165px;
 
 }
 
