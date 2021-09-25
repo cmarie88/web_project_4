@@ -174,14 +174,9 @@ card:last-of-type {
   .page {
     padding: 0 50px 0;
   }
-
 }
 
-@media screen and (max-width: 780px) {
-  .page {
-    padding: 0 19px 0;
-  }
-
+@media screen and (max-width: 800px) {
   .profile {
     flex-direction: column;
   }
@@ -213,6 +208,13 @@ card:last-of-type {
 
   .footer {
     padding: 50px 0 36px 0;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .page {
+    padding: 0 19px 0;
   }
 
 }
