@@ -31,6 +31,7 @@
   padding: 0 200px 0;
 }
 
+
 .header {
   display:flex;
   align-items: flex-start;
@@ -58,7 +59,6 @@
 
 .profile__edit-box {
   padding: 0 0 0 30px;
-
 }
 
 .profile__name {
@@ -69,7 +69,10 @@
 
 .profile__edit-link {
   padding: 0 0 0 18px;
+}
 
+.profile__edit-link:hover {
+  opacity: .6;
 }
 
 .profile__edit-image {
@@ -87,7 +90,10 @@
 
 .profile__add-link {
   padding: 0 0 0 144px;
+}
 
+.profile__add-link:hover {
+  opacity: .6;
 }
 
 .profile__add-image {
@@ -119,10 +125,6 @@
   max-height: 361px;
 }
 
-card:last-of-type {
-  margin-right: 0;
-}
-
 .card__image {
   border-radius: 10px 10px 0 0;
   margin: 0;
@@ -140,13 +142,21 @@ card:last-of-type {
   display: flex;
   justify-content: space-between;
 }
-
-.card__like-button {
+/*
+*/
+.card__like-image{
   width: 21px;
   height: 19px;
   align-self: center;
 }
 
+.card__like-link:hover {
+  opacity: .5;
+}
+
+.card__like-link:active {
+  opacity: 2;
+}
 
 .footer {
   padding: 67px 0 60px 0;
