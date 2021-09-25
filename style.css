@@ -101,6 +101,7 @@
   display: flex;
   flex-wrap: wrap;
   row-gap: 20px;
+  column-gap: 8px;
   padding: 50px 0 0 0;
   box-sizing: border-box;
   justify-content: space-between;
@@ -152,6 +153,64 @@ card:last-of-type {
   color: #545454;
   margin: 0;
 }
+
+
+@media screen and (max-width: 1278px) {
+  .card__container {
+    justify-content: center;
+    column-gap: 17px;
+  }
+
+}
+
+@media screen and (max-width: 1278px) {
+  .page {
+    padding: 0 100px 0;
+  }
+
+}
+
+@media screen and (max-width: 1096px) {
+  .page {
+    padding: 0 50px 0;
+  }
+
+}
+
+@media screen and (max-width: 780px) {
+  .page {
+    padding: 0 19px 0;
+  }
+  .profile {
+    flex-direction: column;
+  }
+  .profile__name {
+    font-size: 22px;
+    line-height: 27px;
+    padding: 30px 0 0;
+  }
+  .profile__description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    padding: 14px 0 0 78px;
+  }
+  .profile__edit-image {
+    padding: 3px 3px;
+  }
+  .profile__add-link {
+    padding: 35px 0 0;
+
+  }
+  .profile__add-image {
+    padding: 14px 111px;
+  }
+  .footer {
+    padding: 50px 0 36px 0;
+  }
+
+}
+
 
 mobile profile name::after/* Group 1 */
 
