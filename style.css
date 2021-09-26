@@ -205,6 +205,10 @@
 
 }
 
+.modal_visible {
+  visibility: visible;
+}
+
 .form {
   display: flex;
   flex-direction: column;
