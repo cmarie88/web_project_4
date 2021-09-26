@@ -68,11 +68,14 @@
   margin: 0;
 }
 
-.profile__edit-link {
+.profile__edit-button {
   padding: 0 0 0 18px;
+  border: none;
+  text-decoration: none;
+  background: #000;
 }
 
-.profile__edit-link:hover {
+.profile__edit-button:hover {
   opacity: .6;
 }
 
@@ -89,11 +92,15 @@
   padding: 16px 0 0 0;
 }
 
-.profile__add-link {
-  padding: 0 0 0 144px;
+.profile__add-button {
+  padding: 0 0 22px 144px;
+  border: none;
+  text-decoration: none;
+  background: #000;
+
 }
 
-.profile__add-link:hover {
+.profile__add-button:hover {
   opacity: .6;
 }
 
@@ -152,11 +159,17 @@
   align-self: center;
 }
 
-.card__like-link:hover {
+.card__like-button {
+  border: none;
+  text-decoration: none;
+  background: #fff;
+}
+
+.card__like-button:hover {
   opacity: .5;
 }
 
-.card__like-link:active {
+.card__like-button:active {
   opacity: 2;
 }
 
@@ -176,6 +189,7 @@
   display: flex;
   padding: 30px;
   box-sizing: border-box;
+  visibility: hidden;
 
 }
 
@@ -185,11 +199,21 @@
   height: 330px;
   border-radius: 10px;
   background-color: #fff;
+  color: #000;
   z-index: 1;
   position: relative;
+
 }
 
-.modal__close-button {
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.form__close-button {
   background-image: url(./images/CloseBig.svg);
   width: 40px;
   height: 40px;
@@ -234,19 +258,19 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
-    padding: 14px 0 0 78px;
+    padding: 14px 0 0 72px;
   }
 
   .profile__edit-image {
     padding: 3px 3px;
   }
 
-  .profile__edit-link {
+  .profile__edit-button {
     padding: 0 0 0 10px;
   }
 
-  .profile__add-link {
-    padding: 35px 0 0;
+  .profile__add-button{
+    padding: 36px 0 0;
   }
 
   .profile__add-image {

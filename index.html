@@ -10,18 +10,17 @@
 
 <body class="page-container">
   <div class="page">
+
     <div class="modal">
       <div class="modal__box">
-        <button class="modal__close-button"></button>
-        <form class="">
-          <p class="">Edit profile</p>
-          <input type="text" name="profile-name">
-          <input type="text" name="profile-description">
-          <button class="">Save</button>
+        <button type="button" class="form__close-button"></button>
+        <form class="form" name="profile-edit">
+          <p class="form__name">Edit profile</p>
+          <input class="form__input form__input_type_name" type="text" name="profile-name" placeholder="Jacques Cousteau">
+          <input class="form__input form__input_type_description" type="text" name="profile-description" placeholder="Explorer">
+          <button class="form__save-button type="submit">Save</button>
         </form>
-
       </div>
-
     </div>
 
     <header class="header">
@@ -33,37 +32,37 @@
       <section class="profile">
         <img class="profile__avatar" src="./images/jacque.jpg" alt="Jacues Cousteau in signature red beanie">
         <div class="profile__edit-box">
-          <p class="profile__name">Jacques Cousteau<a class="profile__edit-link" href="#"><img class="profile__edit-image" src="./images/edit.png" alt="edit symbol"></a></p>
+          <p class="profile__name">Jacques Cousteau<button class="profile__edit-button" type="button"><img class="profile__edit-image" src="./images/edit.png" alt="edit symbol"></button></p>
 
           <p class="profile__description">Explorer</p>
         </div>
-        <a class="profile__add-link" href="#"><img class="profile__add-image" src="./images/add.png" alt="add symbol"></a>
+        <button class="profile__add-button" type="button"><img class="profile__add-image" src="./images/add.png" alt="add symbol"></button>
       </section>
 
       <section class="card__container">
         <figure class="card">
           <img class="card__image" src="images/horeshoeBend.jpg" alt="Horseshoe Bend">
-          <figcaption class="card__caption">Horseshoe Bend<a class="card__like-link" href="#"><img class="card__like-image" src="./images/linedHeart.jpg" alt="Heart Outline Like Button"></a></figcaption>
+          <figcaption class="card__caption">Horseshoe Bend<button class="card__like-button" type="button"><img class="card__like-image" src="./images/linedHeart.jpg" alt="Heart Outline Like Button"></button></figcaption>
         </figure>
         <figure class="card">
           <img class="card__image" src="images/lakePowell.jpg" alt="Lake Powell">
-          <figcaption class="card__caption">Lake Powell<a class="card__like-link" href="#"><img class="card__like-image" src="./images/linedHeart.jpg" alt="Heart Outline Like Button"></a></figcaption>
+          <figcaption class="card__caption">Lake Powell<button class="card__like-button" type="button"><img class="card__like-image" src="./images/linedHeart.jpg" alt="Heart Outline Like Button"></button></figcaption>
         </figure>
         <figure class="card">
           <img class="card__image" src="images/treasure.Falls.lawrence-melosantos-9Cg3ebqBaVE-unsplash.jpg" alt="Treasure Falls">
-          <figcaption class="card__caption">Treasure Falls<a class="card__like-link" href="#"><img class="card__like-image" src="./images/linedHeart.jpg" alt="Heart Outline Like Button"></a></figcaption>
+          <figcaption class="card__caption">Treasure Falls<button class="card__like-button" type="button"><img class="card__like-image" src="./images/linedHeart.jpg" alt="Heart Outline Like Button"></button></figcaption>
         </figure>
         <figure class="card">
           <img class="card__image" src="images/navajoLake.jr.jpg" alt="Navajo Lake">
-          <figcaption class="card__caption">Navajo Lake<a class="card__like-link" href="#"><img class="card__like-image" src="./images/linedHeart.jpg" alt="Heart Outline Like Button"></a></figcaption>
+          <figcaption class="card__caption">Navajo Lake<button class="card__like-button" type="button"><img class="card__like-image" src="./images/linedHeart.jpg" alt="Heart Outline Like Button"></button></figcaption>
         </figure>
         <figure class="card">
           <img class="card__image" src="images/mesaVerde.mariola-grobelska-IheRlfkl4iA-unsplash.jpg" alt="Mesa Verde">
-          <figcaption class="card__caption">Mesa Verde<a class="card__like-link" href="#"><img class="card__like-image" src="./images/linedHeart.jpg" alt="Heart Outline Like Button"></a></figcaption>
+          <figcaption class="card__caption">Mesa Verde<button class="card__like-button" type="button"><img class="card__like-image" src="./images/linedHeart.jpg" alt="Heart Outline Like Button"></button></figcaption>
         </figure>
         <figure class="card">
           <img class="card__image" src="images/wolfCreek.alain--N6HozFz49Q-unsplash.jpg" alt="Wolf Creek">
-          <figcaption class="card__caption">Wolf Creek<a class="card__like-link" href="#"><img class="card__like-image" src="./images/linedHeart.jpg" alt="Heart Outline Like Button"></a></figcaption>
+          <figcaption class="card__caption">Wolf Creek<button class="card__like-button" type="button"><img class="card__like-image" src="./images/linedHeart.jpg" alt="Heart Outline Like Button"></button></figcaption>
         </figure>
       </section>
     </main>
@@ -73,5 +72,6 @@
     </footer>
 
   </div>
+  <script src="scripts/index.js" type="text/javascript"></script>
 </body>
 </html>
