@@ -3,6 +3,8 @@ const popup = document.querySelector('.modal');
 const closeButton = popup.querySelector('.form__close-button');
 
 function toggleForm() {
+  inputName.value = profileName.textContent;
+  inputDescription.value = profileDescription.textContent;
   popup.classList.toggle('modal_visible');
 }
 
