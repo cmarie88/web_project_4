@@ -157,8 +157,7 @@
   display: flex;
   justify-content: space-between;
 }
-/*
-*/
+
 .card__like-image{
   width: 21px;
   height: 19px;
@@ -208,7 +207,6 @@
   color: #000;
   z-index: 1;
   position: relative;
-
 }
 
 .modal_visible {
@@ -220,11 +218,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .form__close-button {
-  background-image: url(./images/CloseBig.svg);
+  background-image: url(./images/CloseBlk.png);
+  background-color: #000;
+  border: 1px solid #000;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -40px;
+  right: -40px;
+}
+
+.form__close-button:hover {
+  background-image: url(./images/CloseGray.png);
+  background-color: #000;
+  border: 1px solid #000;
   width: 40px;
   height: 40px;
   position: absolute;
