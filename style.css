@@ -216,8 +216,44 @@
 .form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 0 0 36px;
+}
+
+.form__name {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 900;
+  padding: 34px 0 24px;
+  text-align: start;
+  margin: 0;
+}
+
+.form__input {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 30px 0 13px;
+  width: 358px;
+
+}
+
+.form__save-button {
+  font-family: Inter;
+  font-size: 16px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 100px;
+  margin: 48px 0 0;
+  width: 358px;
+}
+
+form__input:last-of-type {
+  padding-bottom: 20px;
 }
 
 .form__close-button {
