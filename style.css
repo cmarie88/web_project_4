@@ -115,7 +115,7 @@
   padding: 14px 64px;
 }
 
-.card__container {
+.card-container {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
