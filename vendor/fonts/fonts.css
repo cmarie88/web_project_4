@@ -1,3 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&display=swap');
+@font-face {
+  src: url(./Inter-Regular.woff);
+  font-family: "Inter";
+  font-weight: 400;
+}
 
+@font-face {
+  src: url(./Inter-Medium.woff);
+  font-family: "Inter";
+  font-weight: 500;
+}
 
+@font-face {
+  src: url(./Inter-Black.woff);
+  font-family: "Inter";
+  font-weight: 900;
+}
