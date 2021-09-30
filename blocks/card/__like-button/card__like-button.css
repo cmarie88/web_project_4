@@ -1,0 +1,13 @@
+.card__like-button {
+  border: none;
+  text-decoration: none;
+  background: #fff;
+}
+
+.card__like-button:hover {
+  opacity: .5;
+}
+
+.card__like-button:active {
+  opacity: 2;
+}
