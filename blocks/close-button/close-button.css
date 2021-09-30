@@ -1,0 +1,29 @@
+.close-button {
+  background-image: url(../../images/CloseBlk.png);
+  background-color: transparent;
+  border: 1px solid #000;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -40px;
+  right: -40px;
+}
+
+.close-button:hover {
+  background-image: url(../../images/CloseGray.png);
+}
+
+@media screen and (max-width: 800px) {
+  .close-button {
+    background-image: url(../../images/CloseBlkSml.png);
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: -40px;
+    right: 0;
+  }
+
+  .close-button:hover {
+    background-image: url(../../images/CloseGraySml.png);
+  }
+}

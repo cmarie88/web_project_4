@@ -1,6 +1,6 @@
 let openFormButton = document.querySelector('.profile__edit-button')
 let popup = document.querySelector('.modal');
-let closeButton = popup.querySelector('.form__close-button');
+let closeButton = popup.querySelector('.close-button');
 
 function toggleForm() {
   inputName.value = profileName.textContent;
