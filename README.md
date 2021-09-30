@@ -2,11 +2,11 @@
 
 **Intro**
 
-This project showcasess unique outdoor locations in the Four Corners area of the Southwestern United States. The highlight feature is an editable profile and popup form enabled by Javascript.
+This project showcasess unique outdoor locations in the Four Corners area of the Southwestern United States. The highlight feature is an editable profile section and popup form enabled by Javascript.
   
 **Primary skills used:**
 * Javascript
-* DOM interation
+* DOM interaction
 * HTML best practices
 * semantic markup
 * CSS best practices
