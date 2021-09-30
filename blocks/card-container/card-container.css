@@ -1,0 +1,18 @@
+.card-container {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 12px;
+  padding: 50px 0 0 0;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1278px) {
+  .card__container {
+    justify-content: space-evenly;
+    column-gap: 17px;
+  }
+}
