@@ -10,7 +10,7 @@
 }
 
 .close-button:hover {
-  background-image: url(../../images/CloseGray.png);
+  background-image: url(../../images/CloseGray.svg);
 }
 
 @media screen and (max-width: 800px) {
@@ -24,6 +24,6 @@
   }
 
   .close-button:hover {
-    background-image: url(../../images/CloseGraySml.png);
+    background-image: url(../../images/CloseGraySml.svg);
   }
 }

@@ -1,16 +1,18 @@
 .profile__edit-button {
+  background-image: url(../../../images/editButton.svg);
+  background-color: transparent;
   padding: 12px 0 0 18px;
   border: none;
-  text-decoration: none;
-  background: #000;
+  /* background: #000;*/
 }
 
 .profile__edit-button:hover {
-  opacity: .6;
+  background-image: url(../../../images/editButtonGray.svg);
 }
 
 @media screen and (max-width: 800px) {
   .profile__edit-button {
     padding: 32px 0 0 10px;
+    url
   }
 }
