@@ -1,6 +1,7 @@
 .profile__add-image {
   border: 2px solid #FFFFFF;
   padding: 14px 64px;
+  border-radius: 2px;
 }
 
 @media screen and (max-width: 800px) {
