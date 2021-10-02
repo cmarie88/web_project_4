@@ -5,7 +5,8 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  padding: 25px 15px 21px 31px;
+  padding: 16px 12px 21px 20px;
   display: flex;
   justify-content: space-between;
+  margin: 0;
 }
