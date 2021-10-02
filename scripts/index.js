@@ -2,6 +2,14 @@ let openFormButton = document.querySelector('.profile__edit-button')
 let popup = document.querySelector('.modal');
 let closeButton = popup.querySelector('.close-button');
 
+let profileName = document.querySelector('.profile__name');
+let profileDescription = document.querySelector('.profile__description');
+
+let inputName = document.querySelector('.form__input_type_name');
+let inputDescription = document.querySelector('.form__input_type_description');
+
+let form = document.querySelector('.form');
+
 function toggleForm() {
   inputName.value = profileName.textContent;
   inputDescription.value = profileDescription.textContent;
@@ -11,13 +19,6 @@ function toggleForm() {
 openFormButton.addEventListener('click', toggleForm);
 closeButton.addEventListener('click', toggleForm);
 
-let profileName = document.querySelector('.profile__name');
-let profileDescription = document.querySelector('.profile__description');
-
-let inputName = document.querySelector('.form__input_type_name');
-let inputDescription = document.querySelector('.form__input_type_description');
-
-let form = document.querySelector('.form');
 
 function handleFormSubmit(event) {
   event.preventDefault();
