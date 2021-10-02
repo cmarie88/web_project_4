@@ -3,3 +3,12 @@
   height: 19px;
   align-self: center;
 }
+
+.card__like-image:hover {
+  opacity: .5;
+}
+
+.card__like-image:active {
+  opacity: 1;
+  content: url(../../../images/heartFull.svg);
+}
