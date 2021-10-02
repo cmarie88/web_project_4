@@ -24,6 +24,7 @@ function handleFormSubmit(event) {
   event.preventDefault();
   profileName.textContent = inputName.value;
   profileDescription.textContent = inputDescription.value;
+  popup.classList.toggle('modal_visible');
 }
 
 form.addEventListener('submit', handleFormSubmit);
