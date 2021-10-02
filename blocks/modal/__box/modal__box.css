@@ -1,7 +1,7 @@
 .modal__box {
   margin: 14vh auto;
   width: 430px;
-  height: 330px;
+  max-height: 330px;
   border-radius: 10px;
   background-color: #fff;
   color: #000;
@@ -13,6 +13,6 @@
   .modal__box {
     margin: 24vh auto;
     width: 282px;
-    height: 322px;
+    max-height: 322px;
   }
 }
