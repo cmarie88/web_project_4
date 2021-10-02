@@ -11,22 +11,8 @@
 <body class="page-container">
   <div class="page">
 
-    <div class="modal">
-      <div class="modal__box">
-        <button type="button" class="close-button"></button>
-        <form class="form" name="profile-edit">
-          <h2 class="form__name">Edit profile</h2>
-          <input class="form__input form__input_type_name" type="text" name="profile-name"
-            placeholder="Jacques Cousteau">
-          <input class="form__input form__input_type_description" type="text" name="profile-description"
-            placeholder="Explorer">
-          <button class="form__save-button" type="submit" name="submit">Save</button>
-        </form>
-      </div>
-    </div>
-
     <header class="header">
-      <a href="#"><img class="logo" src="./images/logo.svg" alt="Around The U.S. logo"></a>
+      <img class="logo" src="./images/logo.svg" alt="Around The U.S. logo">
     </header>
 
     <main class="content">
@@ -93,6 +79,20 @@
     <footer class="footer">
       <p class="footer__caption">&copy; 2021 Around The U.S.</p>
     </footer>
+
+    <div class="modal">
+      <div class="modal__box">
+        <button type="button" class="close-button"></button>
+        <form class="form" name="profile-edit">
+          <h2 class="form__name">Edit profile</h2>
+          <input class="form__input form__input_type_name" type="text" name="profile-name"
+            placeholder="Jacques Cousteau">
+          <input class="form__input form__input_type_description" type="text" name="profile-description"
+            placeholder="Explorer">
+          <button class="form__save-button" type="submit" name="submit">Save</button>
+        </form>
+      </div>
+    </div>
 
   </div>
   <script src="scripts/index.js"></script>
