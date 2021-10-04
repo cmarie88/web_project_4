@@ -7,8 +7,9 @@
   color: #fff;
   padding: 10px 100px;
   margin: 48px 0 0;
-  width: 358px;
   border-radius: 2px;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .form__save-button:hover {
