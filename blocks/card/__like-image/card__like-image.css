@@ -10,5 +10,5 @@
 
 .card__like-image:active {
   opacity: 1;
-  content: url(../../../images/heartFull.svg);
+  content: url(../../../images/heart-full.svg);
 }

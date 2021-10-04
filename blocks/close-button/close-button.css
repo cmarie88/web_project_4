@@ -1,5 +1,5 @@
 .close-button {
-  background-image: url(../../images/Close.svg);
+  background-image: url(../../images/close.svg);
   background-color: transparent;
   border: 1px solid #000;
   width: 40px;
@@ -10,12 +10,12 @@
 }
 
 .close-button:hover {
-  background-image: url(../../images/CloseGray.svg);
+  background-image: url(../../images/close-gray.svg);
 }
 
 @media screen and (max-width: 800px) {
   .close-button {
-    background-image: url(../../images/CloseSml.svg);
+    background-image: url(../../images/close-sml.svg);
     width: 26px;
     height: 26px;
     position: absolute;
@@ -24,6 +24,6 @@
   }
 
   .close-button:hover {
-    background-image: url(../../images/CloseGraySml.svg);
+    background-image: url(../../images/close-gray-sml.svg);
   }
 }
