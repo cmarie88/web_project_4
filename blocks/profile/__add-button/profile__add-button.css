@@ -1,8 +1,9 @@
 .profile__add-button {
-  padding: 0 0 22px 144px;
+  padding: 22px 0 0 10px;
   border: none;
   text-decoration: none;
   background: #000;
+  align-self: flex-start;
 }
 
 .profile__add-button:hover {
@@ -11,13 +12,14 @@
 
 @media screen and (max-width: 1078px) {
   .profile__add-button {
-    padding: 0 0 22px 50px;
+    padding: 0 0 22px 10px;
+    align-self: center;
   }
 }
 
 @media screen and (max-width: 895px) {
   .profile__add-button {
-    padding: 0 0 22px 40px;
+    padding: 0 0 22px 10px;
   }
 }
 

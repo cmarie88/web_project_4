@@ -1,9 +1,10 @@
 .profile__edit-button {
   background-color: transparent;
-  padding: 7px 0 0 8px;
+  padding: 2px 0 0 8px;
   border: none;
   max-width: 24px;
   max-height: 24px;
+  align-self: center;
 }
 
 .profile__edit-button:hover {
@@ -12,7 +13,7 @@
 
 @media screen and (max-width: 800px) {
   .profile__edit-button {
-    padding: 16px 0 0 6px;
+    padding: 7px 0 0 4px;
     max-width: 18px;
     max-height: 18px;
   }
