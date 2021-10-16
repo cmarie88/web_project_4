@@ -1,27 +1,27 @@
 const initialCards = [
   {
-    name: "Yosemite Valley",
-    link: "https://code.s3.yandex.net/web-code/yosemite.jpg"
+    caption: "Horseshoe Bend",
+    image: "../../images/horseshoe-bend.jpg"
   },
   {
-    name: "Lake Louise",
-    link: "https://code.s3.yandex.net/web-code/lake-louise.jpg"
+    caption: "Lake Powell",
+    image: "images/lake-powell.jpg"
   },
   {
-    name: "Bald Mountains",
-    link: "https://code.s3.yandex.net/web-code/bald-mountains.jpg"
+    caption: "Treasure Falls",
+    image: "images/treasure.Falls.lawrence-melosantos-9Cg3ebqBaVE-unsplash.jpg"
   },
   {
-    name: "Latemar",
-    link: "https://code.s3.yandex.net/web-code/latemar.jpg"
+    caption: "Navajo Lake",
+    image: "images/navajo-lake.jr.jpg"
   },
   {
-    name: "Vanoise National Park",
-    link: "https://code.s3.yandex.net/web-code/vanoise.jpg"
+    caption: "Mesa Verde",
+    image: ".images/mesa-verde.mariola-grobelska-IheRlfkl4iA-unsplash.jpg"
   },
   {
-    name: "Lago di Braies",
-    link: "https://code.s3.yandex.net/web-code/lago.jpg"
+    caption: "Wolf Creek",
+    image: "images/wolf-creek.alain--N6HozFz49Q-unsplash.jpg"
   }
 ];
 
@@ -39,6 +39,9 @@ let profileDescription = document.querySelector('.profile__description');
 //Inputs
 let inputName = document.querySelector('.form__input_type_name');
 let inputDescription = document.querySelector('.form__input_type_description');
+
+//Templates
+const cardTemplate = document.querySelector('#card-template').content.querySelector('.card');
 
 //Functions
 
@@ -60,12 +63,14 @@ openFormButton.addEventListener('click', toggleForm);
 closeButton.addEventListener('click', toggleForm);
 form.addEventListener('submit', handleFormSubmit);
 
-initialCards.forEach(function(card) {
+initialCards.forEach(function (card) {
   //clone template
+  const cardElement = cardTemplate.cloneNode(true);
   //query title element
+  cardElement.querySelector(".card__caption").textContent = card.caption;
   //query image element
+  cardElement.querySelector(".card__image").style.backgroundImage = card.image;
   //add event listeners to elements
   //append it to the list
-
-
-})
+  placesList.append(cardElement);
+});
